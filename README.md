@@ -15,7 +15,8 @@ An x86 Windows, header only library for changing the _ReturnAddress location of 
 ## Usage
 Example usage of SafeCall:
 
-```#include <Windows.h>
+```ruby
+#include <Windows.h>
 
 #include "SafeCall.h"
 
