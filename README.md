@@ -1,14 +1,14 @@
-# SafeCall
+## SafeCall
 An x86 Windows, header only library for changing the _ReturnAddress location of a function.
 
-# Implementation
+## Implementation
 - The implementation of SafeCall is meant to be simple and easy for anybody! All you have to do is take the code from SafeCall.h and paste it into your project.
 
-# Compatibility
-### Known Device Compatibility:
+## Compatibility
+#### Known Device Compatibility:
 - Windows (x86, x64)
 
-### Known Program Compatibility:
+#### Known Program Compatibility:
 - DLL (Dynamic Link Library)
 - EXE (Executable)
 
