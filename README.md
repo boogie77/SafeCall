@@ -12,6 +12,12 @@ An x86 Windows, header only library for changing the _ReturnAddress location of 
 - DLL (Dynamic Link Library)
 - EXE (Executable)
 
+## Macros
+SafeCall has 4 available macros; they look like this:
+```cpp
+SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
+```
+
 ## Usage
 Example usage of SafeCall:
 
@@ -35,12 +41,6 @@ inline uintptr_t GetVirtual(void* classBase, size_t index)
 {
     return static_cast<uintptr_t>((*static_cast<int**>(classBase))[index]);
 }
-
-## Macros
-SafeCall has 4 available macros; they look like this:
-```cpp
-SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
-```
 
 int main()
 {
