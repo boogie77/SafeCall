@@ -36,6 +36,12 @@ inline uintptr_t GetVirtual(void* classBase, size_t index)
     return static_cast<uintptr_t>((*static_cast<int**>(classBase))[index]);
 }
 
+## Macros
+SafeCall has 4 available macros; they look like this:
+```cpp
+SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
+```
+
 int main()
 {
     while (!GetModuleHandleA("user32.dll"))
