@@ -21,7 +21,7 @@ SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 - STDCALL is for [__stdcall](https://learn.microsoft.com/en-us/cpp/cpp/stdcall?view=msvc-170) functions. You want to use this on WinAPI functions such as, MessageBoxA, VirtualProtect, ExitProcess, etc.
 - THISCALL is for [__thiscall](https://learn.microsoft.com/en-us/cpp/cpp/thiscall?view=msvc-170) functions. __thiscall Functions are by default, class member functions in x86. It's the default convention used by member functions that don't use variable arguments.
 - FASTCALL is for [__fastcall](https://learn.microsoft.com/en-us/cpp/cpp/fastcall?view=msvc-170) functions. This is a calling convention that specifices that arguments to functions are to be passed in registers when possible. Of course, It attempts have execution quicker.
-- CDECL Is the default calling convention used for C/C++ programs.
+- CDECL is for [__cdecl](https://learn.microsoft.com/en-us/cpp/cpp/cdecl?view=msvc-170) functions. This convention type is Microsoft specific. It's the default convention for C & C++ programs. It can do vararg functions.
 
 ## Real Usage
 Example usage of SafeCall:
