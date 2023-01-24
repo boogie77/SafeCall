@@ -1,5 +1,5 @@
 ## SafeCall
-An x86 Windows, header only library for changing the _ReturnAddress location of a function.
+An x86 Windows, header only library for changing the _ReturnAddress location of a function. The primary goal of SafeCall is have the _ReturnAddress change in an extremely stealthy matter. The library by default includes various useful functions apart from the primary implementation to be more secure. i.e: ```GetExport``` and ```GetModule`. I believe it's very important to not call nor use any WindowsAPI functions to be even more discreet.
 
 ## Implementation
 - The implementation of SafeCall is meant to be simple and easy for anybody! All you have to do is take the code from SafeCall.h and paste it into your project.
