@@ -245,7 +245,7 @@ namespace SafeCall
 					addresses.push_back(&scannedBytes[i]);
 			}
 
-			// Iterate through all addresses to ensure our list is still valid and 
+			// Iterate through all addresses to ensure we have a valid address. 
 			if (addresses.size())
 			{
 				for (auto c : addresses)
