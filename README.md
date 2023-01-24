@@ -12,13 +12,16 @@ An x86 Windows, header only library for changing the _ReturnAddress location of 
 - DLL (Dynamic Link Library)
 - EXE (Executable)
 
-## Macros
+## Macro Usage
 SafeCall has 4 available macros; they look like this:
 ```cpp
 SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 ```
 
-## Usage
+- STDCALL [stdcall](https://learn.microsoft.com/en-us/cpp/cpp/stdcall?view=msvc-170) is for __stdcall functions. You want to use this on WinAPI functions such as, MessageBoxA, VirtualProtect, ExitProcess, etc.
+- 
+
+## Real Usage
 Example usage of SafeCall:
 
 ```cpp
