@@ -14,6 +14,9 @@ Note to more advanced users: If you'd like to be even more secretive, you can ha
 - DLL (Dynamic Link Library)
 - EXE (Executable)
 
+#### IDE Requirements
+C++14, Legacy C Language Standard.
+
 ## Macro Explanation
 SafeCall has 4 available macros; they look like this:
 ```cpp
