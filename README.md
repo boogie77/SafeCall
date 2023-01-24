@@ -27,7 +27,7 @@ SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 
 ## Testing
 https://i.imgur.com/PaDvDqv.png
-![alt text]([http://url/to/img.png](https://i.imgur.com/PaDvDqv.png))
+![This is an image](https://i.imgur.com/PaDvDqv.png)
 ## Real Usage
 Example usage of SafeCall:
 
