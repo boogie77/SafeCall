@@ -18,7 +18,7 @@ SafeCall has 4 available macros; they look like this:
 SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 ```
 
-- STDCALL [stdcall](https://learn.microsoft.com/en-us/cpp/cpp/stdcall?view=msvc-170) is for __stdcall functions. You want to use this on WinAPI functions such as, MessageBoxA, VirtualProtect, ExitProcess, etc.
+- STDCALL is for [__stdcall](https://learn.microsoft.com/en-us/cpp/cpp/stdcall?view=msvc-170) functions. You want to use this on WinAPI functions such as, MessageBoxA, VirtualProtect, ExitProcess, etc.
 - 
 
 ## Real Usage
