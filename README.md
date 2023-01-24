@@ -25,6 +25,9 @@ SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 - FASTCALL is for [__fastcall](https://learn.microsoft.com/en-us/cpp/cpp/fastcall?view=msvc-170) functions. This is a calling convention that specifices that arguments to functions are to be passed in registers when possible. Of course, It attempts have execution quicker.
 - CDECL is for [__cdecl](https://learn.microsoft.com/en-us/cpp/cpp/cdecl?view=msvc-170) functions. This convention type is Microsoft specific. It's the default convention for C & C++ programs. It can do vararg functions.
 
+## Testing
+https://i.imgur.com/PaDvDqv.png
+![alt text]([http://url/to/img.png](https://i.imgur.com/PaDvDqv.png))
 ## Real Usage
 Example usage of SafeCall:
 
