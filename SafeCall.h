@@ -1,13 +1,3 @@
-// Windows OS check.
-#if defined(_WIN32) || defined(_WIN64)
-
-#ifdef _M_IX86
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <minwindef.h>
-#include <intrin.h>
-
 /*
 	SafeCall is an x86 library made for the Windows OS that is used for ensuring
 	that the ReturnAddress doesn't correspond with the actual location that
@@ -44,6 +34,16 @@
 	- DLL (Dynamic Link Library)
 	- EXE (Executable)
 */
+
+// Windows OS check.
+#if defined(_WIN32) || defined(_WIN64)
+
+#ifdef _M_IX86
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <minwindef.h>
+#include <intrin.h>
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------
 
