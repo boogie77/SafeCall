@@ -26,8 +26,8 @@ SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 - CDECL is for [__cdecl](https://learn.microsoft.com/en-us/cpp/cpp/cdecl?view=msvc-170) functions. This convention type is Microsoft specific. It's the default convention for C & C++ programs. It can do vararg functions.
 
 ## Testing
-https://i.imgur.com/PaDvDqv.png
 ![This is an image](https://i.imgur.com/PaDvDqv.png)
+
 ## Real Usage
 Example usage of SafeCall:
 
