@@ -19,7 +19,7 @@ SAFECALL_STDCALL, SAFECALL_THISCALL, SAFECALL_FASTCALL, SAFECALL_CDECL
 ```
 
 - STDCALL is for [__stdcall](https://learn.microsoft.com/en-us/cpp/cpp/stdcall?view=msvc-170) functions. You want to use this on WinAPI functions such as, MessageBoxA, VirtualProtect, ExitProcess, etc.
-- 
+- THISCALL is for [__thiscall](https://learn.microsoft.com/en-us/cpp/cpp/thiscall?view=msvc-170) functions. __thiscall Functions are by default, class member functions in x86. It's the default convention used by member functions that don't use variable arguments.
 
 ## Real Usage
 Example usage of SafeCall:
